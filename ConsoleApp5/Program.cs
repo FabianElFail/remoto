@@ -18,6 +18,7 @@ public class Program
 			sal = double.Parse(Console.ReadLine());
 			Console.WriteLine("Ingrese las faltas del empleado");
 			f = int.Parse(Console.ReadLine());
+			Console.WriteLine($"Días trabajados por el empleado {n}: {30-f}");
 
 			mt += sal;
 
